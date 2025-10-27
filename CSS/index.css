@@ -1,0 +1,1111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar,.offcanvas{
+    background-color: #103f1bdb;
+}
+.navbar-brand img{
+    width: 80px;
+}
+.navbar ul li a{
+    color: #FFF5CF;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.navbar ul li a:hover{
+    background-color: #FFF5CF;
+}
+.navbar-toggler,.btn-close{
+    font-size: 30px;
+    color: #FFF5CF;
+}
+.offcanvas .offcanvas-title img{
+    width: 80px;
+}
+.home{
+    position: relative;
+    width: 130vh;
+    width: 100%;
+}
+.home_lover{
+    width: 31.09vw;
+    height: 4.42vw;
+    background-color: #FFF5CF;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+.join-btn{
+    margin: 0px;
+}
+
+.recycle-para{
+    color: #133919;
+    font-size: 1.56vw;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+    font-family: "Poppins", sans-serif;
+}
+.btn-join{
+    background: #1B3822;
+    border-radius: 6px;
+    width: 10.93vw;
+    outline: none;
+    border: none;
+    height: 3.07vw;
+    font-size: 1.04vw;
+    color: #FFF5CF;
+    font-family: "Poppins", sans-serif;
+}
+.form-lover{
+    width: 31.09vw;
+    height: 4.42vw;
+    background-color: #FFF5CF;
+    border-radius: 10px;
+    margin-top: 5vw;
+}
+.background-slick1{
+    background: url(../images/Slide2.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .hero-content img{
+    width: 18vw;
+ }
+ .hero-content h2{
+     font-family: "Rajdhani", sans-serif;
+  font-weight: 800;
+  color: #00ED3D;
+  text-transform: uppercase;
+    font-size:2.320vw;
+ }
+ .hero-content h1{
+    font-family: "Rajdhani", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #FFF5CF;
+    font-size: 3.625vw;
+ }
+.background-slick2{
+    background: url(../images/Slide1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-slick3{
+    background: url(../images/Slide3.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    min-height: 130vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    width: 100%;
+}
+.single-item .slick-dots{
+    list-style-type: none;
+}
+.single-item .slick-dots {
+    display: flex !important;
+  justify-content: center;
+  align-items:center;
+    border: none !important;
+    outline: none !important;
+    position: absolute;
+    bottom: 22%;
+    z-index: 99;
+    width: 100%;
+}
+.single-item .slick-dots button{
+    background-color: silver;
+    border: none;
+    outline: none;
+    font-size: .1vw;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 12px;
+    margin:20px;
+
+}
+.single-item .slick-dots .slick-active button{
+    background-color: #FFF5CF;
+}
+
+
+.hero-gyans{
+    background-color: #1e1e1e73;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.gyans-text{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: .5s ease;
+}
+.gyans-text h3{
+    font-size:16px;
+    text-transform: capitalize;
+}
+.gyans-text p{
+    font-size: 10px;
+}
+.gyans-text:hover{
+    background-color: white;
+    color: black;
+}
+
+.docs img{
+    width: 500px;
+}
+
+.doc-text .doc-text-para p,.doc-text p{
+    font-size: 18px;
+    color: #7E5409;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+}
+.doc-text h1{
+      font-size: 35px;
+      color: #1B3822;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.doc-text button{
+    width:50%;
+    height: 50px;
+    background-color: #103f1bdb;
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+.doc-card{
+    min-height: 90vh;
+}
+.doc-text .doc-text-para ul li{
+     font-size: 18px;
+     color: #7E5409;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+}
+.logos img{
+    width: 12vw;
+}
+.member-head{
+      font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #1B3822;
+}
+
+
+.blog-head{
+     font-size: 1.82vw;
+    color: #1B3822;
+font-family: 'poppins',sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.blogs-head-para{
+      font-size: 1.2vw;
+    color:#7E5409;
+font-family: 'poppins',sans-serif;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+}
+
+.img-fade-box-home{
+     display: block;
+    width: 25.02vw;
+    height: 24.27vw;
+    position: relative;
+}
+
+.para-fade-1{
+    position: absolute;
+    top: 7.6vw;
+    left: 3.51vw;
+    font-size: 1.8vw;
+    color: #FFF5CF;
+    width: 50%;
+    font-family: 'poppins',sans-serif;
+    font-weight: 800;
+}
+.btn-fade-1{
+    position: absolute;
+    top: 15.10vw;
+    left: 3.51vw;
+    background-color: #FFF5CF;
+    padding: 1vw 2vw;
+    border: none;
+}
+
+.overlay{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: #1339196e;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    transition: .5s ease;
+}
+ .container:hover .overlay {
+    width: 25.02vw;
+    margin-left: 10px;
+  }
+
+   .container:hover .btn-fade-1{
+      position: absolute;
+      top: 17vw;
+      opacity: 1;
+      z-index: 99;
+      left: 3.51vw;
+      transition: .5s ease !important;
+  }
+  .container:hover .para-fade-1{
+      position: absolute;
+      top: 2.2vw;
+      opacity: 1;
+      z-index: 99;
+      left: 3.51vw;
+      transition: .5s ease !important;
+  }
+  .text {
+    color: white;
+    font-size: 1.3vw;
+    line-height: 2vw;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    width: 75%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+
+
+.reach-out{
+    background: url(/images/BGimages/reachoutbg.jpg);
+    color:#FFF5CF;
+     font-family: "Poppins", sans-serif;
+}
+.reach-out-logo{
+    width: 80px;
+}
+.contacts h3{
+    font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.contacts .mail p{
+    font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+}
+.contacts .social-logo img{
+    width: 50px;
+}
+
+.reach-out-p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif\;
+}
+.form-application{
+    background-color: white;
+    color: black;
+    padding: 50px;
+    border-radius: 20px;
+}
+.form-application input{
+    border: 2px solid black;
+    text-transform: capitalize;
+}
+.form-application textarea{
+    border: 2px solid black;
+}
+.form-btn{
+    background-color: #103f1bdb;
+    color: #FFF5CF;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+.form-head{
+    color: black;
+}
+.reachtag{
+    background: url(/images/BGimages/footer_reach_quote.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00731E;
+}
+.reachtag p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer{
+ background-color: #FFF5CF;   
+}
+.footer p{
+      font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #1B3822;
+}
+/* Why Recycle-Page */
+
+.why-recycle-hero{
+    background: url(/images/BGimages/whyrecycle.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    color: #FFF5CF;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.btn-join-com{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  width:50%;
+  max-width: 50%;
+  min-width: 20%;
+  border-radius: 10px;
+  padding: 15px 25px;
+  z-index: 1;
+}
+.btn-join-com p{
+    font-size:1.8vw;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.btn-join-com button{
+    padding: 1vw 2vw;
+    border: none;
+        font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    border-radius: 10px;
+    background-color: #103f1bdb;
+    font-size: 1vw;
+    color: white;
+}
+.why-recycle-hero h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.why-recycle-hero .why-p{
+    font-size: 19px;
+    font-weight: 300;
+}
+.whyrecycle-points ul li{
+    font-size: 24px;
+    line-height: 38px;
+    color: #7E5409;
+    text-align: justify;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+}
+  
+
+  /* Do YOUR BIT */
+.do-your-bit-hero{
+    background: url(/images/BGimages/Doyoubit.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+    padding-top: 120px;
+    color: #FFF5CF;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.do-your-bit-hero h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.do-your-bit-hero .do-p{
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 35px;
+}
+.do-you-points h3{
+    font-size: 35px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    color: #00731E;
+}
+.do-card-1 p{
+    margin-bottom: 0;
+    color: #7E5409;
+    text-align: justify;
+    font-size: 18px;
+      font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+/* Blog Section */
+.blog-hero{
+    background: url(/images/BGimages/Blogs.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+    padding-top: 120px;
+    color: #FFF5CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.blog-hero h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.blog-hero .blog-p{
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 38px;
+}
+.blog-points img{
+    width: 95%;
+}
+.blog-points .blog-content h1{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.blog-points .blog-content p{
+    font-size: 17px;
+     font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-align: justify;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+.blog-card{
+    min-height: 80vh;
+}
+.logo-anime{
+    width: 37.65vw;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+}
+.logo-anime .mems{
+    object-fit: contain;
+    width: 9.11vw;
+}
+.join-head{
+    text-transform: capitalize;
+}
+.join-p{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.join-mem-head{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:990px) {
+   .single-item .slick-dots{
+    bottom: 24%;
+    z-index: 99;
+    width: 100%;
+   }
+   
+   
+    .hero-content img{
+    width: 220px;
+ }
+ .hero-content h2{
+     font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  color: #00ED3D;
+  text-transform: uppercase;
+    font-size:30px;
+ }
+ .hero-content h1{
+    font-family: "Rajdhani", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #FFF5CF;
+    font-size: 50px;
+ }
+      .home_lover{
+        background-color: #FFF5CF;
+        border-radius: 10px;
+        position: absolute;
+        bottom: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        width: 60.09vw;
+        height: 7.42vw;
+    }
+   .form-lover{
+    width: 60.09vw;
+    height: 7.42vw;
+    margin: 0 auto;
+    margin-top: 5vw;
+}
+.recycle-para{
+    font-size: 3vw;
+}
+.btn-join{
+    font-size: 2.5vw;
+    height: 5vw;
+    width: 15vw;
+}
+ .hero-gyans{
+    background-color: #1e1e1e73;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.gyans-text{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .5s ease;
+}
+.gyans-text h3{
+    font-size:13px;
+}
+.gyans-text p{
+    font-size: 6px;
+}
+.gyans-text:hover{
+    background-color: white;
+    color: black;
+}
+ .doc-text button{
+    width:30%;
+    height: 40px;
+    background-color: #103f1bdb;
+    color: white;
+    border: none;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+ .doc-card img{
+    width: 80%;
+ }
+ .brands img{
+    width: 150px;
+ }
+
+
+.blog-head{
+     font-size: 5.5vw;
+    color: #1B3822;
+font-family: 'poppins',sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.blogs-head-para{
+      font-size: 3vw;
+    color:#7E5409;
+font-family: 'poppins',sans-serif;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+}
+
+.img-fade-box-home{
+     display: block;
+    width: 40vw;
+    height: auto;
+    position: relative;
+}
+
+.para-fade-1{
+    position: absolute;
+    top: 5vw;
+    left: 8vw;
+    font-size: 3vw;
+    z-index: 1;
+    color: #FFF5CF;
+    width: 70%;
+    font-family: 'poppins',sans-serif;
+    font-weight: 800;
+}
+.btn-fade-1{
+    position: absolute;
+    top:30.10vw;
+    left: 8vw;
+    background-color: #FFF5CF;
+    padding: 1vw 2vw;
+    z-index: 1;
+    border: none;
+}
+
+.overlay{
+    position: absolute;
+    top: 0%;
+    left: 3%;
+    right: 0%;
+    background-color: #1339196e;
+    width: 94%;
+    height: 100%;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.text {
+    color: white;
+    font-size: 2.5vw;
+    line-height: normal;
+    position: absolute;
+    top: 56%;
+    left:56%;
+    width: 78%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+.reach-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacts .mail p{
+    font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.contacts h3{
+    font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.contacts .social-logo img{
+    width: 40px;
+}
+.reach-out-p{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.why-recycle-hero h1{
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.why-recycle-hero .why-p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.whyrecycle-points ul li{
+    font-size: 23px;
+    line-height: 35px;
+    text-align: justify;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+}
+.do-your-bit-hero h1{
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.do-your-bit-hero .do-p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.blog-hero h1{
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.blog-hero .blog-p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.do-you-points img{
+    width: 120px;
+}
+.do-you-points h3{
+    font-size: 30px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+}
+.do-card-1 p{
+    margin-bottom: 0;
+    text-align: justify;
+    font-size: 18px;
+      font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.blog-points img{
+    width: 95%;
+}
+.blog-points .blog-content h1{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.logo-anime{
+    width: 70.65vw;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+}
+.footer p{
+      font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #1B3822;
+}
+}
+
+@media only screen and (max-width:600px){
+   .hero-content img{
+    width: 150px;
+ }
+ .hero-content h2{
+     font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  color: #00ED3D;
+  text-transform: uppercase;
+    font-size:22px;
+ }
+ .hero-content h1{
+    font-family: "Rajdhani", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #FFF5CF;
+    font-size: 40px;
+ }
+ .single-item .slick-dots {
+    display: flex !important;
+  justify-content: center;
+  align-items:center;
+    border: none !important;
+    outline: none !important;
+    position: absolute;
+    bottom: 24%;
+    z-index: 99;
+    width: 100%;
+}
+   .home_lover{
+        bottom: 75vw !important;
+    }
+
+  .form-lover,.home_lover{
+        height: 13vw;
+        width: 80vw;
+        margin-top: 12vw;
+    }
+    .recycle-para{
+        font-size: 4vw !important;
+    }
+    .btn-join{
+        width: 20vw;
+        height: 7vw;
+        font-size: 3vw;
+    }
+    .doc-text .doc-text-para p,.doc-text p{
+    font-size: 15px;
+    color: #7E5409;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+  .doc-text button{
+    width:30%;
+    height: 40px;
+    background-color: #103f1bdb;
+    color: white;
+    border: none;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+ .doc-card img{
+    width: 90%;
+ }
+ .brands img{
+    width: 140px;
+ }
+
+.blog-head{
+     font-size: 6vw;
+    color: #1B3822;
+font-family: 'poppins',sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.blogs-head-para{
+      font-size: 3.5vw;
+    color:#7E5409;
+font-family: 'poppins',sans-serif;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+}
+
+.img-fade-box-home{
+     display: block;
+    width: 80vw;
+    height: auto;
+    position: relative;
+}
+
+.para-fade-1{
+    position: absolute;
+    top: 10.6vw;
+    left: 10.5vw;
+    font-size: 5.8vw;
+    z-index: 1;
+    color: #FFF5CF;
+    width: 50%;
+    font-family: 'poppins',sans-serif;
+    font-weight: 800;
+}
+.btn-fade-1{
+    position: absolute;
+    top: 55.10vw;
+    left: 10.5vw;
+    background-color: #FFF5CF;
+    padding: 1vw 2vw;
+    z-index: 1;
+    border: none;
+}
+
+.overlay{
+    position: absolute;
+    top: 0%;
+    left: 3%;
+    right: 0%;
+    background-color: #1339196e;
+    width: 92%;
+    height: 100%;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.text {
+    color: white;
+    font-size: 3.5vw;
+    line-height: normal;
+    position: absolute;
+    top: 53%;
+    left:50%;
+    width: 78%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  .footer p{
+      font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #1B3822;
+  font-size: 8px;
+}
+
+ .contacts .mail p{
+    font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.contacts h3{
+    font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.reach-left{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacts .social-logo img{
+    width: 30px;
+}
+.reach-out-p{
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.why-recycle-hero h1{
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.why-recycle-hero .why-p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.whyrecycle-points ul li{
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+}
+.do-your-bit-hero h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.do-your-bit-hero .do-p{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.blog-hero h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.blog-hero .blog-p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.do-you-points img{
+    width: 90px;
+}
+.do-you-points h3{
+    font-size: 22px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+}
+.do-card-1 p{
+    margin-bottom: 0;
+    text-align: justify;
+    font-size: 13px;
+    line-height: normal;
+      font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.blog-points img{
+    width: 95%;
+}
+.blog-points .blog-content h1{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}  
+.blog-points .blog-content p{
+    font-size: 14px;
+    line-height: normal;
+}
+.reachtag{
+    background: url(/images/BGimages/footer_reach_quote.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00731E;
+}
+.reachtag p{
+    font-size: 10px;
+    font-weight: 700;
+}
+.logo-anime{
+    width: 70.65vw;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+}
+.join-head{
+    font-size: 35px;
+}
+.join-p{
+    font-size: 14px;
+}
+}
